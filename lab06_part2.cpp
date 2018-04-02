@@ -77,7 +77,7 @@ Signal::Signal(int filenum) //parametric constructor
 		getline(myfile, line);
 		rawData.push_back(atof(line.c_str()));
 		newData.push_back(rawData[i]);
-		cout << "Read the data for " << i << " : " << rawData[i] << endl; //error checking 
+		//cout << "Read the data for " << i << " : " << rawData[i] << endl; //error checking 
 	}
 	
 	myfile.close();
